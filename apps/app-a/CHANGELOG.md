@@ -1,5 +1,12 @@
 
 
+## [0.5.0](https://github.com/davidobodo/monorepo-semantic-releases/compare/first-app-v0.4.0...first-app-v0.5.0) (2024-06-06)
+
+
+### Features
+
+* **undefined:** released versions v0.4.0 [no ci] ([159b054](https://github.com/davidobodo/monorepo-semantic-releases/commit/159b054ad69b674f45b3358b66f2200ea9e410e7))
+
 ## [0.4.0](https://github.com/davidobodo/monorepo-semantic-releases/compare/first-app-v0.3.0...first-app-v0.4.0) (2024-06-06)
 
 
