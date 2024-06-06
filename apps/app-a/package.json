@@ -1,15 +1,15 @@
 {
-  "name": "@mono/app-a",
-  "version": "0.3.0",
-  "license": "UNLICENSED",
-  "scripts": {
-    "start": "node index.js",
-    "release": "release-it --ci"
-  },
-  "dependencies": {
-    "@mono/lib-a": "*"
-  },
-  "devDependencies": {
-    "@mono/config-release-it": "*"
-  }
+	"name": "first-app",
+	"version": "0.2.1",
+	"license": "UNLICENSED",
+	"scripts": {
+		"start": "node index.js",
+		"release": "release-it --ci"
+	},
+	"dependencies": {
+		"first-package": "*"
+	},
+	"devDependencies": {
+		"@mono/config-release-it": "*"
+	}
 }

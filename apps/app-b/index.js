@@ -1,3 +1,3 @@
-const msg = require('@mono/lib-b');
+const msg = require("second-package");
 
-console.log('Lib b', msg);
+console.log("Lib b", msg);
