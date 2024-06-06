@@ -1,5 +1,7 @@
 
 
+## [0.2.1](https://github.com/davidobodo/monorepo-semantic-releases/compare/@mono/config-release-it-v0.2.0...@mono/config-release-it-v0.2.1) (2024-06-06)
+
 ## 0.2.0 (2024-06-06)
 
 
