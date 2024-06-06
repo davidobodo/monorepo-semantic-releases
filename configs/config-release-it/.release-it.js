@@ -31,6 +31,7 @@ module.exports = {
 		releaseName: `${packageName}-v${version}`,
 	},
 	hooks: {
+		"before:init": ["git update-index -q --refresh"],
 		"before:git:release": ["mvm-update", "git add --all"],
 	},
 };
