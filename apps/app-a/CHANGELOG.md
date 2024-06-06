@@ -1,5 +1,12 @@
 
 
+## [0.4.0](https://github.com/davidobodo/monorepo-semantic-releases/compare/first-app-v0.3.0...first-app-v0.4.0) (2024-06-06)
+
+
+### Features
+
+* **first-app:** add a log to first app ([f7d36bf](https://github.com/davidobodo/monorepo-semantic-releases/commit/f7d36bfb6cde2f66f86f6414410a1b0e70e748cf))
+
 ## 0.3.0 (2024-06-06)
 
 
