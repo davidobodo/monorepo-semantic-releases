@@ -1,5 +1,13 @@
 
 
+## [0.4.1](https://github.com/davidobodo/monorepo-semantic-releases/compare/second-package-v0.4.0...second-package-v0.4.1) (2024-06-06)
+
+
+### Bug Fixes
+
+* **second-package:** fix another bug in second package ([c582098](https://github.com/davidobodo/monorepo-semantic-releases/commit/c5820983bbc614a06cf4a65ed0c934bec697dff7))
+* **second-package:** fix bug in second package ([ae719ee](https://github.com/davidobodo/monorepo-semantic-releases/commit/ae719eec934b31b16bcd4dd0226072ec56a70a1a))
+
 ## 0.4.0 (2024-06-06)
 
 
