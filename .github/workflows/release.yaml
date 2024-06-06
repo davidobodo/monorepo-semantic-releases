@@ -48,8 +48,8 @@ jobs:
 
       - name: Setup git
         run: |
-          git config user.name "$GIT_USER_NAME"
-          git config user.email "$GIT_USER_EMAIL"
+          git config user.name "davidobodo"
+          git config user.email "obododavid5@gmail.com"
         env:
           GIT_USER_NAME: ${{ vars.GIT_USER_NAME }}
           GIT_USER_EMAIL: ${{ vars.GIT_USER_EMAIL }}
