@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "first-package": "0.3.0"
+    "first-package": "0.4.0"
   },
   "devDependencies": {
     "@mono/config-release-it": "0.2.1"

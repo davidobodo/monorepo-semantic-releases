@@ -1,5 +1,14 @@
 
 
+## [0.4.0](https://github.com/davidobodo/monorepo-semantic-releases/compare/first-package-v0.3.0...first-package-v0.4.0) (2024-06-06)
+
+
+### Features
+
+* **first-package:** update console ([952f6bf](https://github.com/davidobodo/monorepo-semantic-releases/commit/952f6bfc9621ccc288994009b5939df03ca0097c))
+* **first-package:** update console again ([7e06511](https://github.com/davidobodo/monorepo-semantic-releases/commit/7e0651162248480a23e41652ba1ad2a542726b9f))
+* **first-package:** update console for the third time ([77c8c0d](https://github.com/davidobodo/monorepo-semantic-releases/commit/77c8c0dd2a575ceba4e9232b76b74aa755c57489))
+
 ## 0.3.0 (2024-06-06)
 
 
