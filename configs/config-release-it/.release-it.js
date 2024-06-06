@@ -21,6 +21,7 @@ module.exports = {
 		commitMessage: `feat(${scope}): released versions v${version} [no ci]`,
 		requireCommits: true,
 		requireCommitsFail: false,
+		requireCleanWorkingDir: false,
 	},
 	npm: {
 		publish: false,
