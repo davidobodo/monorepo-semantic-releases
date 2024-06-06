@@ -295,24 +295,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@mono/app-a@workspace:apps/app-a":
-  version: 0.0.0-use.local
-  resolution: "@mono/app-a@workspace:apps/app-a"
-  dependencies:
-    "@mono/config-release-it": "npm:*"
-    "@mono/lib-a": "npm:*"
-  languageName: unknown
-  linkType: soft
-
-"@mono/app-b@workspace:apps/app-b":
-  version: 0.0.0-use.local
-  resolution: "@mono/app-b@workspace:apps/app-b"
-  dependencies:
-    "@mono/config-release-it": "npm:*"
-    "@mono/lib-b": "npm:*"
-  languageName: unknown
-  linkType: soft
-
 "@mono/config-release-it@npm:*, @mono/config-release-it@workspace:configs/config-release-it":
   version: 0.0.0-use.local
   resolution: "@mono/config-release-it@workspace:configs/config-release-it"
@@ -320,32 +302,6 @@ __metadata:
     "@b12k/mvm": "npm:0.0.10"
     "@release-it/conventional-changelog": "npm:5.1.1"
     release-it: "npm:15.10.1"
-  languageName: unknown
-  linkType: soft
-
-"@mono/lib-a@npm:*, @mono/lib-a@workspace:libs/lib-a":
-  version: 0.0.0-use.local
-  resolution: "@mono/lib-a@workspace:libs/lib-a"
-  dependencies:
-    "@mono/config-release-it": "npm:*"
-    "@mono/lib-c": "npm:*"
-  languageName: unknown
-  linkType: soft
-
-"@mono/lib-b@npm:*, @mono/lib-b@workspace:libs/lib-b":
-  version: 0.0.0-use.local
-  resolution: "@mono/lib-b@workspace:libs/lib-b"
-  dependencies:
-    "@mono/config-release-it": "npm:*"
-    "@mono/lib-c": "npm:*"
-  languageName: unknown
-  linkType: soft
-
-"@mono/lib-c@npm:*, @mono/lib-c@workspace:libs/lib-c":
-  version: 0.0.0-use.local
-  resolution: "@mono/lib-c@workspace:libs/lib-c"
-  dependencies:
-    "@mono/config-release-it": "npm:*"
   languageName: unknown
   linkType: soft
 
@@ -2180,6 +2136,24 @@ __metadata:
   checksum: 10c0/062c5a83a9c02f53cdd6d175a37ecf8f87ea5bbff1fdfb828f04bfa021441bc7583e8ebc0872a4c1baab96221fb8a8a275a19809fb93fbc40bd69ec35634069a
   languageName: node
   linkType: hard
+
+"first-app@workspace:apps/app-a":
+  version: 0.0.0-use.local
+  resolution: "first-app@workspace:apps/app-a"
+  dependencies:
+    "@mono/config-release-it": "npm:*"
+    first-package: "npm:*"
+  languageName: unknown
+  linkType: soft
+
+"first-package@npm:*, first-package@workspace:libs/lib-a":
+  version: 0.0.0-use.local
+  resolution: "first-package@workspace:libs/lib-a"
+  dependencies:
+    "@mono/config-release-it": "npm:*"
+    third-package: "npm:*"
+  languageName: unknown
+  linkType: soft
 
 "for-each@npm:^0.3.3":
   version: 0.3.3
@@ -4771,6 +4745,24 @@ __metadata:
   languageName: node
   linkType: hard
 
+"second-app@workspace:apps/app-b":
+  version: 0.0.0-use.local
+  resolution: "second-app@workspace:apps/app-b"
+  dependencies:
+    "@mono/config-release-it": "npm:*"
+    second-package: "npm:*"
+  languageName: unknown
+  linkType: soft
+
+"second-package@npm:*, second-package@workspace:libs/lib-b":
+  version: 0.0.0-use.local
+  resolution: "second-package@workspace:libs/lib-b"
+  dependencies:
+    "@mono/config-release-it": "npm:*"
+    third-package: "npm:*"
+  languageName: unknown
+  linkType: soft
+
 "semver-diff@npm:^4.0.0":
   version: 4.0.0
   resolution: "semver-diff@npm:4.0.0"
@@ -5203,6 +5195,14 @@ __metadata:
   checksum: 10c0/9ad5a9f723a871e2d884e132d7e93f281c60b5759c95f3f6b04704856548715d93a36c10dbaf5f12b91bf405f0cf3893bf169d4d143c0f5509563b992d385443
   languageName: node
   linkType: hard
+
+"third-package@npm:*, third-package@workspace:libs/lib-c":
+  version: 0.0.0-use.local
+  resolution: "third-package@workspace:libs/lib-c"
+  dependencies:
+    "@mono/config-release-it": "npm:*"
+  languageName: unknown
+  linkType: soft
 
 "through2@npm:^2.0.0":
   version: 2.0.5

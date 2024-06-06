@@ -1,2 +1,2 @@
-const who = require('@mono/lib-c');
-module.exports = 'Hello ' + who;
+const who = require("third-package");
+module.exports = "Hello " + who;

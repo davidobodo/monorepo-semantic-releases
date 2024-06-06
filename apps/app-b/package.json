@@ -1,15 +1,15 @@
 {
-  "name": "@mono/app-b",
-  "version": "0.4.0",
-  "license": "MIT",
-  "scripts": {
-    "start": "node index.js",
-    "release": "release-it --ci"
-  },
-  "dependencies": {
-    "@mono/lib-b": "*"
-  },
-  "devDependencies": {
-    "@mono/config-release-it": "*"
-  }
+	"name": "second-app",
+	"version": "0.4.0",
+	"license": "MIT",
+	"scripts": {
+		"start": "node index.js",
+		"release": "release-it --ci"
+	},
+	"dependencies": {
+		"second-package": "*"
+	},
+	"devDependencies": {
+		"@mono/config-release-it": "*"
+	}
 }
