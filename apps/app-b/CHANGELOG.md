@@ -1,5 +1,7 @@
 
 
+## [0.5.1](https://github.com/davidobodo/monorepo-semantic-releases/compare/second-app-v0.5.0...second-app-v0.5.1) (2024-06-06)
+
 ## 0.5.0 (2024-06-06)
 
 
