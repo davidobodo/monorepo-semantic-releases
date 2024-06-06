@@ -1,5 +1,12 @@
 
 
+## [0.6.0](https://github.com/davidobodo/monorepo-semantic-releases/compare/second-app-v0.5.1...second-app-v0.6.0) (2024-06-06)
+
+
+### Features
+
+* **repo:** add a second commit ([47027d6](https://github.com/davidobodo/monorepo-semantic-releases/commit/47027d6495e96ea8d512343497229973ea0c78cb))
+
 ## [0.5.1](https://github.com/davidobodo/monorepo-semantic-releases/compare/second-app-v0.5.0...second-app-v0.5.1) (2024-06-06)
 
 ## 0.5.0 (2024-06-06)
