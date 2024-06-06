@@ -44,7 +44,7 @@ jobs:
 
       - name: Install deps
         if: steps.node-cache.outputs.cache-hit != 'true'
-        run: yarn --ignore-scripts --prefer-offline --frozen-lockfile
+        run: yarn --ignore-scripts --prefer-offline
 
       - name: Setup git
         run: |
